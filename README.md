@@ -4,5 +4,5 @@ My customized version of [Omakub](https://omakub.org) for my personal use. Mostl
 
 # Installation
 ```bash
-eval "$(wget -qO- https://raw.githubusercontent.com/basecamp/omakub/stable/boot.sh)" | bash
+eval "$(wget -qO- https://github.com/andrius-ordojan/mykub/blob/main/boot.sh)" | bash
 ```
