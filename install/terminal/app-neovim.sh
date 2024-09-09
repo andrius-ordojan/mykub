@@ -7,9 +7,9 @@ sudo cp -R nvim-linux64/lib /usr/local/
 sudo cp -R nvim-linux64/share /usr/local/
 rm -rf nvim-linux64 nvim.tar.gz
 
-cd .local/share/nvim/lazy/telescope-fzf-native.nvim
-make
+#cd .local/share/nvim/lazy/telescope-fzf-native.nvim
+#make
 
 cd -
 
-# TODO: add my config
+ln -s ~/.local/share/mykub/configs/lazyvim/ ~/.config/nvim/
