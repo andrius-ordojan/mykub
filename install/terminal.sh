@@ -4,4 +4,4 @@ sudo apt upgrade -y
 sudo apt install -y curl
 
 # Run terminal installers
-for installer in ~/.local/share/omakub/install/terminal/*.sh; do source $installer; done
+for installer in ~/.local/share/mykub/install/terminal/*.sh; do echo $installer; done
