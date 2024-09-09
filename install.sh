@@ -13,6 +13,8 @@ echo "Installing terminal and desktop tools.."
 # Install desktop tools and tweaks
 #source ~/.local/share/mykub/install/desktop.sh
 
+# TODO: add wallpaper
+
 # Revert to normal idle and lock settings
 gsettings set org.gnome.desktop.screensaver lock-enabled true
 gsettings set org.gnome.desktop.session idle-delay 300
