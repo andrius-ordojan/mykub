@@ -1,5 +1,6 @@
 mkdir -p ~/.local/share/fonts
 
+# TODO: add jetbrains
 cd /tmp
 wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/CascadiaMono.zip
 unzip CascadiaMono.zip -d CascadiaFont
