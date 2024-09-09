@@ -38,3 +38,5 @@ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-6 "['<Super>6
 # remove this to allow resize wezterm
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-left "[]"
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-right "[]"
+
+# TODO: replace capslock with ctrl
