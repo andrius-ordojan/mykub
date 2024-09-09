@@ -1,4 +1,5 @@
 {
+  # TODO: change font
   "editor.fontFamily": "CaskaydiaMono Nerd Font",
   "editor.tabSize": 2,
   "security.workspace.trust.untrustedFiles": "open",
@@ -21,6 +22,5 @@
   "git.openRepositoryInParentFolders": "always",
   "explorer.confirmDelete": false,
   "extensions.ignoreRecommendations": true,
-  "workbench.colorTheme": "Tokyo Night",
   "window.titleBarStyle": "custom"
 }
