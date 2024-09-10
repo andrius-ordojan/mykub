@@ -14,4 +14,5 @@ change from peer
 
 /etc/postgresql/16/main/postgresql.conf
 listen_addresses = 'localhost'
+change port  to 5432
 uncomment
