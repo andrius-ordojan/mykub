@@ -13,3 +13,5 @@ Now you can connect to the server by typing `ssh <name>` in the terminal
 ```
 
 the file is part of gitignore, so it will not be pushed to the repository.
+
+chmod 600 /home/andrius/.ssh/config
