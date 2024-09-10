@@ -7,7 +7,7 @@ sudo apt install -y caddy php8.3-fpm php8.3-pgsql
 
 # setup app directory
 sudo mkdir -p /srv/www/localhost
-cat <<EOL | sudo tee /srv/www/localhost/index.html > /dev/null
+cat <<EOL | sudo tee /srv/www/localhost/index.html >/dev/null
 <!DOCTYPE html>
 <html>
 <body>
@@ -20,20 +20,20 @@ EOL
 
 # setup adminer
 sudo mkdir -p /srv/www/adminer
-wget https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1.php -O /srv/www/adminer/index.php
-add theme https://raw.githubusercontent.com/pepa-linha/Adminer-Design-Dark/master/adminer.css to /srv/www/adminer/adminer.css
+sudo wget https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1.php -O /srv/www/adminer/index.php
+sudo wget https://raw.githubusercontent.com/pepa-linha/Adminer-Design-Dark/master/adminer.css -O /srv/www/adminer/adminer.css
 
-cat <<EOL | sudo tee /etc/caddy/Caddyfile > /dev/null
+cat <<EOL | sudo tee /etc/caddy/Caddyfile >/dev/null
 localhost:80 {
-        root * /srv/www/localhost
-        file_server
+  root * /srv/www/localhost
+  file_server
 }
 
 adminer.localhost:80 {
-        root * /srv/www/adminer
-        php_fastcgi unix//run/php/php-fpm.sock
-        file_server
+  root * /srv/www/adminer
+  php_fastcgi unix//run/php/php-fpm.sock
+  file_server
 }
 EOL
- 
+
 sudo systemctl restart caddy
