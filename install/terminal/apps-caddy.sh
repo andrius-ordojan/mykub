@@ -21,7 +21,7 @@ EOL
 # setup adminer
 sudo mkdir -p /srv/www/adminer
 wget https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1.php -O /srv/www/adminer/index.php
-add themehttps://draculatheme.com/adminer
+add theme https://raw.githubusercontent.com/pepa-linha/Adminer-Design-Dark/master/adminer.css to /srv/www/adminer/adminer.css
 
 cat <<EOL | sudo tee /etc/caddy/Caddyfile > /dev/null
 localhost:80 {
