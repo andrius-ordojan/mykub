@@ -6,7 +6,7 @@ sudo apt update
 sudo apt install -y caddy php php-fpm
 
 mkdir -p ~/.local/share/mykub/apps/adminer/
-wget https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1.php -O ~/.local/share/mykub/apps/adminer/adminer.php
+wget https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1.php -O ~/.local/share/mykub/apps/adminer/adminer-4.8.1.php
 
 
 cat <<EOL > /etc/caddy/Caddyfile
