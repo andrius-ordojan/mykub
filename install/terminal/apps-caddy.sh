@@ -18,7 +18,7 @@ localhost:80 {
     }
 }
 EOL
-
+# https://php.watch/articles/caddy-php
 localhost:80 {
     handle_path /adminer/* {
         root * ~/home/andrius/.local/share/mykub/apps/adminer/
