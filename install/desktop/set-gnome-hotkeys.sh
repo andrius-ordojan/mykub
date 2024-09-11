@@ -40,5 +40,8 @@ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-6 "['<Super>6
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-left "[]"
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-right "[]"
 
+# remove this to allow spacebar hotkey
+gsettings set org.gnome.desktop.wm.keybindings switch-group "[]"
+
 # replacing capslock to ctrl
 gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']"
