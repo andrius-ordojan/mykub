@@ -1,13 +1,10 @@
-# TODO: review later
 # Favorite apps for dock
 apps=(
 	"Firefox.desktop"
 	"Wezterm.desktop"
-	"pinta_pinta.desktop"
 	"md.obsidian.Obsidian.desktop"
 	"org.gnome.Settings.desktop"
 	"org.gnome.Nautilus.desktop"
-	"localsend_app.desktop"
 )
 
 # Array to hold installed favorite apps
