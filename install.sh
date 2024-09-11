@@ -8,15 +8,13 @@ gsettings set org.gnome.desktop.session idle-delay 0
 echo "Installing terminal and desktop tools.."
 
 # Install terminal tools
-#source ~/.local/share/mykub/install/terminal.sh
+source ~/.local/share/mykub/install/terminal.sh
 
 # Install desktop tools and tweaks
-#source ~/.local/share/mykub/install/desktop.sh
-
-# TODO: add wallpaper
+source ~/.local/share/mykub/install/desktop.sh
 
 # Revert to normal idle and lock settings
 gsettings set org.gnome.desktop.screensaver lock-enabled true
 gsettings set org.gnome.desktop.session idle-delay 300
 
-#sudo reboot
+sudo reboot
