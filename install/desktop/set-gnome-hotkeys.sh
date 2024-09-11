@@ -1,16 +1,17 @@
 # Make it easy to maximize like you can fill left/right
 gsettings set org.gnome.desktop.wm.keybindings maximize "['<Super>Up']"
-# TODO: add minimize
+gsettings set org.gnome.desktop.wm.keybindings unmaximize "['<Super>Down']"
 
 # Make it easy to resize undecorated windows
 gsettings set org.gnome.desktop.wm.keybindings begin-resize "['<Super>BackSpace']"
 
-# TODO: add vol down and up super home and end
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "[]"
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "[]"
+gsettings set org.gnome.settings-daemon.plugins.media-keys volume-down "['<Super>Page_Down']"
+gsettings set org.gnome.settings-daemon.plugins.media-keys volume-up "['<Super>Page_Up']"
 
 # Full-screen with title/navigation bar
 gsettings set org.gnome.desktop.wm.keybindings toggle-fullscreen "['<Shift>F11']"
-
-# TODO: accesability remove animations
 
 # Use 6 fixed workspaces instead of dynamic mode
 gsettings set org.gnome.mutter dynamic-workspaces false
@@ -39,4 +40,5 @@ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-6 "['<Super>6
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-left "[]"
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-right "[]"
 
-# TODO: replace capslock with ctrl
+# replacing capslock to ctrl
+gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']"
