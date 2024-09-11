@@ -7,6 +7,3 @@ cd -
 
 sudo apt update -y
 sudo apt install -y code
-
-mkdir -p ~/.config/Code/User
-cp ~/.local/share/mykub/configs/vscode.json ~/.config/Code/User/settings.json
