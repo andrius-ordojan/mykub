@@ -12,5 +12,3 @@ rm -rf nvim-linux64 nvim.tar.gz
 #make
 
 cd -
-
-ln -s ~/.local/share/mykub/configs/lazyvim/ ~/.config/nvim
