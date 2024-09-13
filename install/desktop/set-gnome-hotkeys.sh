@@ -45,3 +45,5 @@ gsettings set org.gnome.desktop.wm.keybindings switch-group "[]"
 
 # replacing capslock to ctrl
 gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']"
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys home "['<Super>e']"
