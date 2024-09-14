@@ -1,4 +1,4 @@
-sudo apt install -y pipx
+sudo apt install -y pipx python3-dev1
 pipx ensurepath
 source ~/.bashrc
 
