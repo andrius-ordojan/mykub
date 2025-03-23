@@ -56,6 +56,7 @@ gsettings set org.gnome.shell.extensions.space-bar.behavior smart-workspace-name
 gsettings set org.gnome.shell.extensions.space-bar.shortcuts enable-activate-workspace-shortcuts false
 gsettings set org.gnome.shell.extensions.space-bar.shortcuts enable-move-to-workspace-shortcuts true
 gsettings set org.gnome.shell.extensions.space-bar.shortcuts open-menu "@as []"
+gsettings set org.gnome.shell.extensions.space-bar.shortcuts activate-previous-key "['<Alt>grave']"
 
 # Configure AlphabeticalAppGrid
 gsettings set org.gnome.shell.extensions.alphabetical-app-grid folder-order-position 'end'
