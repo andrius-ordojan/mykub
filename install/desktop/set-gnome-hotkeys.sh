@@ -38,11 +38,11 @@ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-6 "['<Alt>6']
 
 # Use alt for moving to workspaces
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 "['<Alt><shift>1']"
-gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 "['<Alt><shift>2']"
-gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 "['<Alt><shift>3']"
-gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 "['<Alt><shift>4']"
-gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 "['<Alt><shift>5']"
-gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 "['<Alt><shift>6']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-2 "['<Alt><shift>2']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-3 "['<Alt><shift>3']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-4 "['<Alt><shift>4']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-5 "['<Alt><shift>5']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-6 "['<Alt><shift>6']"
 
 # remove this to allow resize wezterm
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-left "[]"
